@@ -233,12 +233,12 @@ function menu{
 
                 #Change Minimum Password Length
                 Write-Host "Changing Minimum Password Length to Recommended Setting" -ForegroundColor green
-                choosePolicy(1)(8)
+                choosePolicy(1)(12)
                 Start-Sleep 1
 
                 #Change Minimum Password Age
                 Write-Host "Changing Minimum Password Age to Recommended Setting" -ForegroundColor green
-                choosePolicy(2)(1)
+                choosePolicy(2)(0)
                 Start-Sleep 1
 
                 #Change Maximum Password Age
